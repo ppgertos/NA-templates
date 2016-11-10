@@ -23,6 +23,7 @@ public:
     }  
     T cont;
 };
+
 template<typename T>
 class container_wrapper<boost::optional<T>> {
 public:
